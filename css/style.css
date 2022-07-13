@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    height: 60px;
+    /* background-color: aquamarine; */
+    /* color: var(--text-color); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: var(--font2);
+    font-weight: 1000;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.left-nav{
+    display: flex;
+}
+.left-nav ul{
+    display: flex;
+    padding: 0 0 0 70px;
+}
+.list-item{
+    list-style: none;
+    padding:20px 34px;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    font-family: var(--font2);
+    /* font-size: 18px; */
+    font-weight: 550;
+    color: var(--text-color);
+}
+.right-nav input{
+    width: 188px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    font-family: var(--font1);  
+}
+.content{
+    height: 55vh;
+    /* background-color: rgba(32, 178, 170, 0.7); */
+    background: rgba(114, 114, 114, 0.3) url(../img/image5.jpg);
+    /* opacity: 0.8; */
+    background-size: cover;
+    background-blend-mode: darken;
+    border: 9px;
+    border-radius: 38px;
+    color:white;
+    display:flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-top: 1.5px;
+    padding: 120px 77px;
+}
+
+.intro{
+    line-height: 2em;
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 20px;
+}
+.content h3{
+    padding: 20px;
+    font-family: var(--font2);
+}
+.blog-post a{
+    text-decoration: none;
+}
+.blog-post{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 25px;
+}
+.post-box{
+    max-width: 30vw;
+    height: 65vh;
+    border:5px solid white;
+    border-radius: 20px;
+    background: lightseagreen;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.post-box img{
+    width: 96%;
+    height: 50%;
+    margin: auto;
+    padding: 9px;
+    border: 9px;
+    border-radius: 19px;    
+
+}
+.footer{
+    height: 36px;
+    background-color: lightseagreen;
+}
+

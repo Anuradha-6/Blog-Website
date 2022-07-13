@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+:root{
+    --main-bg-color: rgb(32, 178, 170);
+     /* #7CC1D6; */
+    --text-color: black;
+    --font1:'Roboto', sans-serif; /*italic*/
+    --font2:'Oxygen', sans-serif; /*not italic*/
+}
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+    max-width: 90vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: white;
+    /* background:transparent; */
+    margin: 3px 2px;
+    width: 75px;
+    font-family: var(--font2);
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: var(--main-bg-color);
+    transition: all 0.3s ease-in;
+}
+.hover-bg{
+    background-color: var(--main-bg-color);
+    transition: all 0.3s ease-in;
+}
+.box-select{
+    transform:scale(1.07);
+    cursor: pointer;
+    /* background:yellow; */
+    color:black;
+    transition: all 0.1s ease-in-out;
+}
